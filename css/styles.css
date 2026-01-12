@@ -209,8 +209,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 188px;
-    padding-bottom: 188px; */
+   
 }
 
 
@@ -247,8 +246,7 @@ img {
     border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-
-
+    
 }
 
 
@@ -272,7 +270,15 @@ img {
     white-space: nowrap;
     clip-path: inset(100%);
 }
-
+.icon{display:block;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        
+}
 .list {
     display: flex;
     gap: 24px;
